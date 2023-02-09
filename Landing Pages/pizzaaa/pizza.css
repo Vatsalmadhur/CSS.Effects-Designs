@@ -1,0 +1,62 @@
+.tag{
+    margin-left: 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ce8b4f;
+    padding: 0 0 0.5rem 4rem;
+}
+.i{
+    padding:7px 0 0 2rem;
+}
+.head{
+    display: inline;
+    font-size: 4rem;
+    padding: 0 0 0 0.5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}nav{
+    background-color: rgb(35, 34, 34);
+}
+
+.down{
+    background-image: url("https://img.freepik.com/free-photo/delicious-italian-pizza-wooden-table_23-2148643436.jpg?w=1060&t=st=1675878265~exp=1675878865~hmac=bd72345ededbc4f16ae5eb279db87e210fadfc47095c43400b36643f936c709b");
+    height: 35.7rem;
+    width: 92.3rem;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:center;
+    margin-left: 0;
+    text-align: right;
+}
+body{
+    margin: 0;
+}
+h5{
+    margin: 0;
+    color: #ce8b4f;
+    font-size: large;
+    font-family:Bradley Hand, cursive;
+    padding-left: 3rem;
+}
+h3{
+    color:#f5b409;
+    font-size: 1.5rem;
+}
+.matter{
+    padding-top: 18rem;
+    padding-right: 15rem;
+}
+.order{
+    background: transparent;
+    padding: 1rem 1.5rem;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.order:hover{
+    border: 1px solid #fcc464;
+    background-color: #fcc464;
+    color: black;
+}
