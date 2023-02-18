@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Gooey SVG Effect</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="frame">
+    <div class="group">
+      <span style="--i:1;" class="span-l"></span>
+      <span style="--i:2;" class="span-r"></span>
+    </div>
+    <div class="group">
+      <span style="--i:3;" class="span-l"></span>
+      <span style="--i:4;" class="span-r"></span>
+    </div>
+    <div class="group">
+      <span style="--i:5;" class="span-l"></span>
+      <span style="--i:6;" class="span-r"></span>
+    </div>
+  </div>
+
+  <svg>
+    <filter id="gooey">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="25" />
+      <feColorMatrix values="
+                  1 0 0 0 0
+                  0 1 0 0 0
+                  0 0 1 0 0
+                  0 0 0 90 -25" />
+    </filter>
+  </svg>
+
+</body>
+</html>
