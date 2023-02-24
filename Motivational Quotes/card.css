@@ -1,0 +1,120 @@
+.card-one,.card-five,.card-three,.card-four,.card-two{
+  display: inline-block;
+  margin: auto;
+}
+
+
+::after,::before{
+  margin: 0;
+  padding: 0;
+}
+
+body{ 
+  box-sizing: border-box;
+  background-color:bisque;
+}
+
+.text{
+    margin-top: 120px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    background-color: rgb(135, 182, 238);
+}
+
+
+.cards{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   margin: 3rem;
+}
+
+.card-two{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.card {
+  perspective: 100rem;
+  -moz-perspective: 100rem;
+  position: relative;
+  height: 400px;
+  width: 65%;
+  margin-top: 40px;
+  transition: all ease-in-out 500ms;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+  
+.card:active {
+  transform: translateY(-1px);
+}
+
+.two{
+    background-image: url("https://i.pinimg.com/736x/e8/a6/5e/e8a65ec96832dc0471d33c64e2c7a0ac.jpg");
+}
+
+.one{
+    background-image: url("https://garden.spoonflower.com/c/10998026/p/f/m/xBJ4bnEjGlannCxZTuXCGaRh2_u-v22yQgJxYH1Zci9fvfvIYIJ9k04/171-1%20daisies.jpg");
+}
+
+.three{
+    background-image: url("https://i.pinimg.com/originals/3c/20/d8/3c20d86380c34520deeb6c722a4f765d.jpg");
+}
+
+.five{
+    background-image: url("https://i.pinimg.com/736x/9c/27/76/9c2776263f0034a9de59becc51da7828.jpg");
+}
+
+.four{
+    background-image: url("https://i.pinimg.com/originals/7e/27/0c/7e270c61b198f4c97d463a3ee6131c21.jpg");
+}
+
+
+.card-side {
+  transition: all 0.8s ease;
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 100%;
+  backface-visibility: hidden;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.4);
+}
+  
+.card-front {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.card-back {
+  transform: rotateY(180deg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+
+.showGreen {
+  transform: rotateY(-180deg);
+}
+  
+.showRed {
+  transform: rotateY(0);
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+  
+.show {
+  visibility: visible;
+  opacity: 1;
+}
