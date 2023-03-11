@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-color: #000033;
+}
+
+h1{
+    text-align: center;
+    color: gold;
+    font-family: 'Babylonica';
+    font-size: 3cm;
+}
+marquee{
+    font-size: 1cm;
+    color: goldenrod;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h2{
+    font-size: 1.5cm;
+    color: goldenrod;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.def1{
+    font-size: large;
+    text-align: center;
+    color: #000033;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.def2{
+    text-align: center;
+    font-size: smaller;
+    color: goldenrod;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 370px);
+    grid-template-rows: repeat(2, 450px);
+}
+
+img{
+    border-radius: 2cm;
+    max-width: 8cm;
+    max-height: 8cm;
+    min-width: 8cm;
+    min-height: 8cm;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    background-color: goldenrod;
+    border-radius: 0.5cm;
+    min-height: 1cm;
+    min-width: 2.5cm;
+    text-decoration-color: #000033;
+}
+
+.flex2{
+    align-content: center;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    background-color: #f4f2c1;
+    border-radius: 1.5cm;
+}
