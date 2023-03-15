@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+/* hero section */
+#hero
+{
+    background-image: url("../Images/HeroBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero a
+{
+    color: white;
+}
+.postion-of-headline2
+{
+    position: relative;
+    bottom: 30px;
+}
+.headline
+{
+    font-size: 5rem;
+  
+}
+.container-fluid
+{
+    padding: 0 4%;
+}
+
+nav
+{
+    background-color: #F9C935;
+    
+    
+}
+.navbar-brand
+{
+    font-weight: light;
+    font-size: 30px;
+}
+
+.content
+{
+    padding-right: 15rem;
+    color: grey;
+}
+.btn
+{
+    border-radius: 10px;
+}
+.col-lg-6 .btn
+{
+    padding: 0.5rem 2rem;
+    margin-bottom: 10%;
+}
+.col-lg-6 img
+{
+    position: relative;
+    top: 9%;
+    right: 15%;
+}
+
+/* success story */
+    .Image-caption
+    {
+        margin-top: 20px;
+        margin-bottom: 50%;
+        text-align: left;
+    }
+    .success-story-content
+    {
+        width: 70%;
+        color: grey;
+    }
+    .bikeimage
+    {
+        background-image: url('../Images/Bikepic.png');
+        background-repeat: no-repeat;
+        text-align: right;
+        border-radius: 25px;
+        padding: 15%;
+        
+    }
+    .bikeimage h4
+    {
+        font-size: 40px;
+    }
+    /* jobs */
+    #jobs
+    {
+        background-image: url('../Images/jobsBackground.png');
+    }
+    #jobs h1
+    {
+        padding: 10% 0 1%;
+        font-size: 5rem;
+        
+
+    }
+    .jobcontent{
+        padding-bottom: 7%;
+    }
+    .hiringimg
+    {
+        background-image: url('../Images/Jobsimg.png');
+        background-repeat: no-repeat;
+        text-align: left;
+        border-radius: 25px;
+        padding: 15%;
+        
+    }
+    .hiringimg h3
+    {
+        font-size: 3rem;
+    }
+
+
+    #footer
+{
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width:800px) {
+   
+    .container-fluid
+    {
+        text-align: center;
+    }
+    .content
+    {
+        padding: 0%;
+    }
+    .success-story-content
+    {
+        width: 100%;
+    }
+    .Image-caption
+    {
+        margin-left: 20%;
+    }
+    .bikeimage
+    {
+        text-align: center;
+       
+    }
+    .bikeimage h4
+    {
+        font-size: 4rem;
+    }
+    .bikeimage .btn
+    {
+        padding: 1rem 2rem;
+        
+    }
+    .postion-of-headline2
+    {
+        position: static;
+    }
+
+}

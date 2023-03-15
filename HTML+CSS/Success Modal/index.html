@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Responsive Modal Popup</title>
+  </head>
+  <body>
+    <section class="modal container">
+      <button class="modal__button" id="open-modal">Open Modal</button>
+
+      <div class="modal__container" id="modal-container">
+        <div class="modal__content">
+          <div class="modal__close close-modal" title="Close">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <img
+            src="https://user-images.githubusercontent.com/86917304/223366646-ce933a17-f49e-4ae1-8220-c72da79ff236.png"
+            alt=""
+            class="modal__img"
+          />
+
+          <h1 class="modal__title">Good Job!</h1>
+          <p class="modal__description">
+            You Made it , Keep Contributing to SWOC
+          </p>
+
+          <button
+            class="modal__button modal__button-width"
+            style="
+              background-color: hsl(var(--hue), 16%, 18%);
+              color: white;
+              font-weight: 500;
+            "
+          >
+            View status
+          </button>
+
+          <button class="modal__button-link close-modal">Close</button>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>
